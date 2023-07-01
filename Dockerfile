@@ -3,6 +3,8 @@ FROM ubuntu:16.04
 #or FROM ct2034/vnc-ros-kinetic-full:latest
 #これちょっと迷うね
 
+#これ以降はroskineticのインストールのやつ
+
 # built-in packages
 RUN apt-get update \
     && apt-get install -y --no-install-recommends software-properties-common curl \
