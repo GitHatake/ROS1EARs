@@ -1,0 +1,8 @@
+prefix=/home/aokilablinuxws/catkin_ws/devel/.private/torobo_bringup
+
+Name: torobo_bringup
+Description: Description of torobo_bringup
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

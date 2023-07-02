@@ -1,0 +1,1 @@
+/home/aokilablinuxws/catkin_ws/devel/.private/torobo_motion_manager/lib/python2.7/dist-packages/torobo_motion_manager/__init__.py

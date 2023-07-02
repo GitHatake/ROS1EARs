@@ -1,0 +1,4 @@
+<launch>
+  <node name="Publish"   pkg="torobo_demo" type="Publish" output="screen"/>
+  <node name="Subscribe" pkg="torobo_demo" type="Subscribe" output="screen"/>
+</launch>

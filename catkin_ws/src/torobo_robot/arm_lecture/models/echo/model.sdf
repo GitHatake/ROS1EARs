@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<sdf version="1.4">
+<model name="echo">
+  <pose>0 0 0 0 0 0</pose>
+    <link name="link">
+      <inertial>
+        <mass>100</mass>
+        <inertia>
+          <ixx>0.001</ixx>
+          <ixy>0.0</ixy>
+          <ixz>0.0</ixz>
+          <iyy>0.001</iyy>
+          <iyz>0.0</iyz>
+          <izz>0.001</izz>
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://echo/ECHO.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://echo/ECHO.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

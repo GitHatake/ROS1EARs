@@ -1,0 +1,46 @@
+Ubuntu16.04から18.04に移行した際のToroboセットアップ手順
+
+既存のcatkin_wsフォルダを別のフォルダに移す
+
+以下のコマンドを打つ(セットアップマニュアルのコマンド上のkineticをmelodicに置き換え)
+
+$ sudo apt-get update
+$ sudo apt-get install -y ros-melodic-desktop-full
+$ sudo rosdep init
+$ rosdep update
+$ echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+$ sudo apt-get install -y python-rosinstall
+$ sudo apt-get install -y python-catkin-tools
+$ sudo apt-get install -y ros-melodic-moveit
+$ sudo apt-get install -y ros-melodic-moveit-visual-tools
+$ sudo apt-get install -y ros-melodic-gazebo-ros-control
+$ sudo apt-get install -y ros-melodic-ros-controllers
+$ source ~/.bashrc
+$ echo "source `catkin locate --shell-verbs`" >> ~/.bashrc
+$ source ~/.bashrc
+
+$　mkdir -p ~/catkin_ws/src
+
+マニュアル通りだとこのあとに~/catkin_ws/srcにtorobo_robot.zipをコピーするが、以前のcatkin_wsに置かれているtorobo_robot.zipをコピーして、~/catkin_ws/srcにペーストした。
+
+$ cd ~/catkin_ws/src
+$ unzip torobo_robot.zip
+
+
+起動手順
+
+$ cd ~/catkin_ws　
+$ catkin init
+$ catkin build
+$ catkin source
+
+$ sudo chmod 666 /dev/ttyUSB0　
+
+$ catkin_make
+$ source /opt/ros/melodic/setup.bash
+$ source devel/setup.bash
+
+$ roslaunch torobo_bringup torobo_bringup.launch sim:=true   (gazebo)
+$ roslaunch torobo_bringup torobo_bringup.launch sim:=false  (実機)
+以上の操作でTorobo Armを稼働させることができた
+

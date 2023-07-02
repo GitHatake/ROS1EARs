@@ -1,0 +1,8 @@
+prefix=/home/aokilablinuxws/catkin_ws/devel/.private/torobo_gazebo
+
+Name: torobo_gazebo
+Description: Description of torobo_gazebo
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+
+    <include>
+      <uri>model://patient</uri>
+      <pose>0.87 1.0 0 0 0 3.14</pose>
+    </include>
+ 
+
+ 
+    
+  
+  </world>
+</sdf>
+
+
+    <include>
+      <uri>model://bed</uri>
+      <pose>0.3 0.15 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://echo</uri>
+      <pose>1.45 -1.8 0 0 0 1.53</pose>
+    </include>
+
+       <include>
+      <uri>model://echo</uri>
+      <pose>1.4 -1.9 0 0 0 1.53</pose>
+    </include>
+

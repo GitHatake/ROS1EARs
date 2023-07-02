@@ -1,0 +1,13 @@
+[31m[1mCMake Error[0m at /home/aokilablinuxws/catkin_ws/devel/share/ddynamic_reconfigure/cmake/ddynamic_reconfigureConfig.cmake:113 (message):
+  Project 'ddynamic_reconfigure' specifies
+  '/home/aokilablinuxws/catkin_ws/src/realsense-ros/ddynamic_reconfigure/include'
+  as an include dir, which is not found.  It does neither exist as an
+  absolute directory nor in
+  '/home/aokilablinuxws/catkin_ws/src/realsense-ros/ddynamic_reconfigure//home/aokilablinuxws/catkin_ws/src/realsense-ros/ddynamic_reconfigure/include'.
+  Report the problem to the maintainer 'Noam Dori <theNODO55@@gmail.com>' and
+  request to fix the problem.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:11 (find_package)
+
+

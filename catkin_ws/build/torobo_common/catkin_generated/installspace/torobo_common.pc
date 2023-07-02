@@ -1,0 +1,8 @@
+prefix=/home/aokilablinuxws/catkin_ws/install
+
+Name: torobo_common
+Description: Description of torobo_common
+Version: 0.1.0
+Cflags: -I${prefix}/include -I/usr/include
+Libs: -L${prefix}/lib -ltorobo_common_parser -ltorobo_common_rosparam_loader -ltorobo_common_robot_description_parser -ltorobo_common_math_util /usr/lib/x86_64-linux-gnu/libtinyxml2.so /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.5.2
+Requires: roscpp rospy roslib kdl_parser

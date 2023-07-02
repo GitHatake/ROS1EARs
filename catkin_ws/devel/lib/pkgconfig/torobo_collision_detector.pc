@@ -1,0 +1,1 @@
+/home/aokilablinuxws/catkin_ws/devel/.private/torobo_collision_detector/lib/pkgconfig/torobo_collision_detector.pc

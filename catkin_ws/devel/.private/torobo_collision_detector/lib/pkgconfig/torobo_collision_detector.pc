@@ -1,0 +1,8 @@
+prefix=/home/aokilablinuxws/catkin_ws/devel/.private/torobo_collision_detector
+
+Name: torobo_collision_detector
+Description: Description of torobo_collision_detector
+Version: 0.1.0
+Cflags: -I/usr/include/eigen3
+Libs: -L${prefix}/lib -ltorobo_collision_detector
+Requires: roscpp rospy std_msgs message_runtime moveit_core moveit_ros_planning_interface sensor_msgs torobo_msgs torobo_common nodelet pluginlib

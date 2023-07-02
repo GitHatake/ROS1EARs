@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/aokilablinuxws/catkin_ws/devel/.private/torobo_description/setup.sh

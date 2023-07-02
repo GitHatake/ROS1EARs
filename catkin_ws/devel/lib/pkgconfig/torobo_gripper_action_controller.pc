@@ -1,0 +1,1 @@
+/home/aokilablinuxws/catkin_ws/devel/.private/torobo_gripper_action_controller/lib/pkgconfig/torobo_gripper_action_controller.pc

@@ -1,0 +1,11 @@
+<library path="lib/libtorobo_driver_nodelet">
+
+  <class name="torobo_driver/torobo_driver_nodelet"
+         type="torobo::ToroboDriverNodelet"
+         base_class_type="nodelet::Nodelet">
+    <description>
+        Nodelet for Torobodriver
+    </description>
+  </class>
+
+</library>

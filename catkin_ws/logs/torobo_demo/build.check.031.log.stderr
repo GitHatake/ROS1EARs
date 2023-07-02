@@ -1,0 +1,12 @@
+[31m[1mCMake Error[0m at /home/aokilablinuxws/catkin_ws/src/torobo_robot/torobo_demo/CMakeLists.txt:154 (add_executable):
+  Cannot find source file:
+
+    src/Subscribe.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: Subscribe
+CMake Error: Cannot determine link language for target "Subscribe".
+make: *** [cmake_check_build_system] Error 1

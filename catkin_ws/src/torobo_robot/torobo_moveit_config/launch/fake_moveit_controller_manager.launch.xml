@@ -1,0 +1,20 @@
+<launch>
+
+  <arg name="product" />
+
+  <!-- Set the param that trajectory_execution_manager needs to find the controller plugin -->
+  <param name="moveit_controller_manager" value="moveit_fake_controller_manager/MoveItFakeControllerManager"/>
+
+  <!-- The rest of the params are specific to this plugin -->
+  <!-- load controller_list -->
+  <param name="/dummy" command="
+      $(find torobo_moveit_config)/scripts/load_controller_list.py 
+      --model_dir=$(find torobo_description)/config/models
+      --yaml=controllers.yaml
+      --robot_config=$(find torobo_description)/config/products/$(arg product).yaml
+      --fake
+      --dump_file=/tmp/torobo_rosparam_fake_controller_list.yaml
+      " />
+  <rosparam command="load" file="/tmp/torobo_rosparam_fake_controller_list.yaml" />
+
+</launch>

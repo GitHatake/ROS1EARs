@@ -1,0 +1,6 @@
+<launch>
+
+  <node name="$(anon toroboarm_arm_controller_kaiya_2_node)" pkg="torobo_demo" type="arm_controller_kaiya_2.py" ns="torobo" output="screen"/>
+  <node name="$(anon toroboarm_arm_calculator_kaiya_2_node)" pkg="torobo_demo" type="arm_calculator_kaiya_2.py" ns="torobo" output="screen"/>
+
+</launch>

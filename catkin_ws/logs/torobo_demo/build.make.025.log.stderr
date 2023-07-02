@@ -1,0 +1,7 @@
+[01m[K/home/aokilablinuxws/catkin_ws/src/torobo_robot/torobo_demo/src/basic_simple_listener.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/aokilablinuxws/catkin_ws/src/torobo_robot/torobo_demo/src/basic_simple_listener.cpp:26:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kj[m[K’ was not declared in this scope
+     for([01;31m[Kj[m[K = 1; j < 90; j++)
+         [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/basic_simple_listener.dir/src/basic_simple_listener.cpp.o] Error 1
+make[1]: *** [CMakeFiles/basic_simple_listener.dir/all] Error 2
+make: *** [all] Error 2

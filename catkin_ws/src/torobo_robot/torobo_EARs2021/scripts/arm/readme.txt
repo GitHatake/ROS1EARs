@@ -1,0 +1,50 @@
+2021年度のながれ
+moveit_commanderで座標を入力することで逆運動と軌道計画をしてくれるのでサンプルプログラムを流用してcsvファイルからロボットを動かすようにした
+↓
+このプログラムでは最初にすべての座標入力をし、軌道を計画するので体動補償を行うことができなかった
+↓
+バッファにPVT点を逐一入力することで自動で3次スプライン補完してくれるので体動補償を加えた座標をリアルタイムで計算して入力するようにした
+このときコマンドでの入力でしかバッファに送信する手段の知識がなかったのでプログラムからコマンドを送ってPVT点を送信した
+
+問題点
+バッファに貯まっているデータを使い果たしてしまうとts allをもう一度送らないと止まってしまうので解決したい
+コマンドで送るのはとてもかしこくないのでプログラムで制御したい
+逆運動学の計算速度が20Hzぐらいが限界なので処理をどうにかして軽くして計算速度を早くしたい
+
+arm_moveit_commander.py:位置姿勢をcsvで入力して逆運動学and軌道計画をする
+arm_controller_kaiya.py:関節角度をcsvで入力、calculatorにrostopicでデータを送信、計算結果を受け取ってアームに命令
+arm_calculator_kaiya.py:受け取ったデータ(関節角度、深度データ)より座標を修正してcontrollerに送信
+arm_moveit_kinematics.py:順運動学、逆運動学の計算をする　csv入力、csv出力
+
+動かす流れ
+デスクトップ上のbash_memo.txtを参考にrosを起動する
+roslaunch ~~(パッケージ名) ~~(launchファイル名)でlaunchファイルからプログラムを起動し、ロボットを動かす
+動かしているときの座標の取得は別のターミナルを用いてHowToGetPosWithUbuntu.txtを参考にbagファイルを取得、変換
+
+例
+ターミナル①
+sudo chmod 666 /dev/ttyUSB0
+↓
+cd ~/catkin_ws
+source /opt/ros/melodic/setup.bash
+source devel/setup.bash
+↓
+roslaunch torobo_bringup torobo_bringup.launch sim:=true←これを実行するとROSが起動する。ROSを落とすまでこのターミナルは使えない
+
+ターミナル②
+source ~/catkin_ws/devel/setup.bash
+↓
+roslaunch torobo_EARs2021 arm_moveit_commander.launch←これを実行するとpythonファイルが呼び出されてプログラムが実行される。プログラムが終わるとまたコマンドが打てるようになる
+
+ターミナル③
+rosbag record /torobo/joint_states←これを実行すると500Hzでロボットの状態を取得する。ロボットを動かす前に実行すること。
+↓
+rosrun rosbag_to_csv rosbag_to_csv.py←やればわかる
+python ubuntu_data_convert.py←bagファイルをcsvに変換すると余計な情報がついてくるので必要なところだけを抽出する。実行する前にpythonファイルを開いて出力するファイル名を指定すること。
+
+
+
+
+
+
+

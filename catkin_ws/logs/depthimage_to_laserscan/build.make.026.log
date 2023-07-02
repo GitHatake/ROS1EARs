@@ -1,0 +1,9 @@
+[ 11%] [32m[1mLinking CXX shared library /home/aokilablinuxws/catkin_ws/devel/.private/depthimage_to_laserscan/lib/libDepthImageToLaserScan.so[0m
+[ 22%] Built target depthimage_to_laserscan_gencfg
+[ 33%] Built target DepthImageToLaserScan
+[ 44%] [32m[1mLinking CXX shared library /home/aokilablinuxws/catkin_ws/devel/.private/depthimage_to_laserscan/lib/libDepthImageToLaserScanROS.so[0m
+[ 55%] Built target DepthImageToLaserScanROS
+[ 66%] [32m[1mLinking CXX executable /home/aokilablinuxws/catkin_ws/devel/.private/depthimage_to_laserscan/lib/depthimage_to_laserscan/depthimage_to_laserscan[0m
+[ 77%] [32m[1mLinking CXX shared library /home/aokilablinuxws/catkin_ws/devel/.private/depthimage_to_laserscan/lib/libDepthImageToLaserScanNodelet.so[0m
+[ 88%] Built target DepthImageToLaserScanNodelet
+[100%] Built target depthimage_to_laserscan

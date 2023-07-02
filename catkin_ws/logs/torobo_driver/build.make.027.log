@@ -1,0 +1,6 @@
+[  7%] [32m[1mLinking CXX shared library /home/aokilablinuxws/catkin_ws/devel/.private/torobo_driver/lib/libtorobo_driver.so[0m
+[ 69%] Built target torobo_driver
+[ 76%] [32m[1mLinking CXX executable /home/aokilablinuxws/catkin_ws/devel/.private/torobo_driver/lib/torobo_driver/torobo_driver_node[0m
+[ 84%] [32m[1mLinking CXX shared library /home/aokilablinuxws/catkin_ws/devel/.private/torobo_driver/lib/libtorobo_driver_nodelet.so[0m
+[ 92%] Built target torobo_driver_nodelet
+[100%] Built target torobo_driver_node

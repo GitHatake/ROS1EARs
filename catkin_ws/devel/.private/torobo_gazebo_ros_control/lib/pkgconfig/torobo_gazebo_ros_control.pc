@@ -1,0 +1,8 @@
+prefix=/home/aokilablinuxws/catkin_ws/devel/.private/torobo_gazebo_ros_control
+
+Name: torobo_gazebo_ros_control
+Description: Description of torobo_gazebo_ros_control
+Version: 2.5.17
+Cflags: -I/home/aokilablinuxws/catkin_ws/src/torobo_robot/torobo_gazebo_ros_control/include
+Libs: -L${prefix}/lib -ltorobo_gazebo_ros_control -ldefault_robot_hw_sim
+Requires: roscpp std_msgs controller_manager control_toolbox pluginlib hardware_interface transmission_interface joint_limits_interface urdf angles

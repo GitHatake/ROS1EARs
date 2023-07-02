@@ -1,0 +1,1 @@
+/home/aokilablinuxws/catkin_ws/devel/.private/arm_lecture/share/arm_lecture/cmake/arm_lectureConfig-version.cmake

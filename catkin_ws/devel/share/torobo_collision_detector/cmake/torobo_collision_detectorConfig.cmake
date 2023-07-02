@@ -1,0 +1,1 @@
+/home/aokilablinuxws/catkin_ws/devel/.private/torobo_collision_detector/share/torobo_collision_detector/cmake/torobo_collision_detectorConfig.cmake

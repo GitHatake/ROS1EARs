@@ -1,0 +1,6 @@
+[ 21%] Built target current_state_self_collision_checker
+[ 42%] Built target torobo_collision_detector
+[ 57%] Built target current_state_self_collision_checker_node
+[ 71%] Built target current_state_self_collision_checker_nodelet
+[ 85%] Built target torobo_collision_detector_nodelet
+[100%] Built target torobo_collision_detector_node

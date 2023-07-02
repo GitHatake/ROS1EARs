@@ -1,0 +1,8 @@
+prefix=/home/aokilablinuxws/catkin_ws/install
+
+Name: torobo_gripper_action_controller
+Description: Description of torobo_gripper_action_controller
+Version: 0.13.4
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -ltorobo_gripper_action_controller
+Requires: actionlib cmake_modules controller_interface control_msgs hardware_interface realtime_tools trajectory_msgs
