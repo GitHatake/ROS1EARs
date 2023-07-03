@@ -11,4 +11,4 @@ COPY catkin_ws ~/
 #RUN git clone https://github.com/GitHatake/ROS1EARs/catkin_ws.git &&\
 #    git clone https://github.com/GitHatake/ROS1EARs/bash_memo.txt.git
 
-LABEL Name="EARsROSmelodic"
+LABEL Name="earsrosmelodic"
