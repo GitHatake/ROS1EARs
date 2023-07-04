@@ -1,1 +1,1 @@
-/home/aokilablinuxws/catkin_ws/devel/.private/realsense2_camera/share/roseus/ros/realsense2_camera/msg/IMUInfo.l
+/home/hatakeyama/docker/ROS1EARs/catkin_ws/devel/.private/realsense2_camera/share/roseus/ros/realsense2_camera/msg/IMUInfo.l
