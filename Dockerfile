@@ -6,7 +6,6 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends dirmngr gnupg2 && \
     rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/GitHatake/ROS1EARs/catkin_ws.git &&\
-    git clone https://github.com/GitHatake/ROS1EARs/bash_memo.txt.git
+COPY /home/hatakeyama/docker/ROS1EARs/catkin_ws /home/ubuntu
 
-LABEL Name="EARsROSmelodic"
+LABEL Name="earsrosmelodic"
