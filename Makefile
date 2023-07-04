@@ -1,2 +1,2 @@
 build:
-	sudo docker image build . -t earsrosmelodic
+	sudo docker image build -t earsrosmelodic .
