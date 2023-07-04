@@ -6,7 +6,7 @@
 TARGET_DIR="/home/hatakeyama/docker/ROS1EARs/catkin_ws/devel"
 
 # 置換前の文字列
-OLD_TEXT="docker/ROS1EARs"
+OLD_TEXT="aokilablinuxws"
 
 # 置換後の文字列
 NEW_TEXT="hatakeyama/docker/ROS1EARs"
