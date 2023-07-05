@@ -1,13 +1,18 @@
 #!/bin/bash
 
-#起動準備
+sudo apt-get update &&\
+sudo apt-get upgrade -yq
+
+cd ~/catkin_ws
+
+source /opt/ros/melodic/setup.bash
+
+source devel/setup.bash
+
 catkin init
-catkin clean -b
+catkin clean -b -yq
 catkin build
 catkin source
-
-#roulaunchとか
-cd ~/catkin_ws
 
 source /opt/ros/melodic/setup.bash
 
