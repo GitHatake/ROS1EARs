@@ -1,1 +1,1 @@
-/home/hatakeyama/docker/ROS1EARs/catkin_ws/devel/.private/arm_lecture/share/arm_lecture/cmake/arm_lectureConfig.cmake
+/home/ubuntu/catkin_ws/devel/.private/arm_lecture/share/arm_lecture/cmake/arm_lectureConfig.cmake

@@ -1,1 +1,1 @@
-/home/hatakeyama/docker/ROS1EARs/catkin_ws/devel/.private/catkin_tools_prebuild/local_setup.zsh
+/home/ubuntu/catkin_ws/devel/.private/catkin_tools_prebuild/local_setup.zsh
