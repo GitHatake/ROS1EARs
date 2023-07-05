@@ -11,9 +11,4 @@ RUN cd /home/ubuntu $$ \
 
 COPY ./catkin_ws /home/ubuntu/catkin_ws
 
-RUN cd ~/catkin_ws && \
-    catkin init && \
-    catkin build && \
-    catkin source
-
 LABEL Name="earsrosmelodic"
