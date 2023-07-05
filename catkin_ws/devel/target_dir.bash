@@ -6,10 +6,10 @@
 TARGET_DIR="/home/hatakeyama/docker/ROS1EARs/catkin_ws/devel"
 
 # 置換前の文字列
-OLD_TEXT="docker/ROS1EARs"
+OLD_TEXT="hatakeyama/docker/ROS1EARs"
 
 # 置換後の文字列
-NEW_TEXT="hatakeyama/docker/ROS1EARs"
+NEW_TEXT="ubuntu"
 
 # TARGET_DIR以下のシンボリックリンクを再帰的に検索
 find "$TARGET_DIR" -type l | while read -r link; do
