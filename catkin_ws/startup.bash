@@ -10,7 +10,7 @@ source /opt/ros/melodic/setup.bash
 source devel/setup.bash
 
 catkin init
-catkin clean -b -yq
+catkin clean -b -y
 catkin build
 catkin source
 

@@ -21,6 +21,15 @@ RUN sudo apt-get update
 RUN sudo apt-get install ros-melodic-moveit-ros-planning-interface -yq
 RUN sudo apt-get install ros-melodic-moveit-msgs -yq
 RUN sudo apt-get install ros-melodic-ddynamic-reconfigure -yq
+#RUN sudo apt-get install debian -yq
+#RUN sudo apt-get install realsense-ros-melodic -yq
+#RUN sudo apt-get install ros-melodic-realsense2-camera -yq
+#RUN sudo apt-get install ros-melodic-realsense2-description -yq
+
+RUN git clone https://github.com/IntelRealSense/realsense-ros.git &&\
+    cd realsense-ros/ &&\
+    git checkout `git tag | sort -V | grep -P "^2.\d+\.\d+" | tail -1` &&\
+    cd ..
 
 RUN sudo apt-get update &&\
     sudo apt-get upgrade -yq
