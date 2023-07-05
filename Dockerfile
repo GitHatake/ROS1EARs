@@ -11,4 +11,10 @@ RUN cd /home/ubuntu $$ \
 
 COPY ./catkin_ws /home/ubuntu/catkin_ws
 
+RUN sudo apt-get update && \
+    sudo apt-get install ros-melodic-moveit-ros-planning-interface \
+    ros-melodic-moveit-msgs \
+    ros-melodic-ddynamic-reconfigure
+
+
 LABEL Name="earsrosmelodic"
