@@ -1,7 +1,0 @@
-set(torobo_driver_SETUP_PY_SETUP_MODULE "distutils.core")
-set(torobo_driver_SETUP_PY_VERSION "0.0.0")
-set(torobo_driver_SETUP_PY_SCRIPTS "")
-set(torobo_driver_SETUP_PY_PACKAGES "torobo_driver")
-set(torobo_driver_SETUP_PY_PACKAGE_DIRS "src/torobo_driver")
-set(torobo_driver_SETUP_PY_MODULES "")
-set(torobo_driver_SETUP_PY_MODULE_DIRS "")

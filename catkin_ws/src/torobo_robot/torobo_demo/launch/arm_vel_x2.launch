@@ -1,6 +1,0 @@
-<launch>
-
-  <node name="$(anon torobo_msgs_node)" pkg="torobo_demo" type="arm_vel_x2.py" ns="torobo" output="screen"/>
-
-</launch>
-

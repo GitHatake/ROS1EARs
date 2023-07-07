@@ -1,1 +1,0 @@
-/home/aokilablinuxws/catkin_ws/devel/.private/ddynamic_reconfigure/share/roseus/ros/ddynamic_reconfigure/srv/TutorialParams.l

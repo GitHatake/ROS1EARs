@@ -1,4 +1,0 @@
-[01m[K/home/aokilablinuxws/catkin_ws/src/torobo_robot/arm_lecture/src/moveit_commander.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/aokilablinuxws/catkin_ws/src/torobo_robot/arm_lecture/src/moveit_commander.cpp:96:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 2 has type ‘[01m[Kstd::vector<double>[m[K’ [[01;35m[K-Wformat=[m[K]
-   printf("%8.3f",[32m[Karm.getCurrentRPY()[m[K[01;35m[K)[m[K;
-                  [32m[K~~~~~~~~~~~~~~~~~~~[m[K[01;35m[K^[m[K

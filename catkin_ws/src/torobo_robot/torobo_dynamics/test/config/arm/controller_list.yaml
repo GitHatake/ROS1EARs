@@ -1,3 +1,0 @@
-controller_list:
-  - joint_state_controller
-  - arm_controller

@@ -1,1 +1,0 @@
-/home/aokilablinuxws/catkin_ws/devel/.private/torobo_resources/lib/pkgconfig/torobo_resources.pc

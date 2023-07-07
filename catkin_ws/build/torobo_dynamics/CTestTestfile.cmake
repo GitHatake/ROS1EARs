@@ -1,9 +1,0 @@
-# CMake generated Testfile for 
-# Source directory: /home/aokilablinuxws/catkin_ws/src/torobo_robot/torobo_dynamics
-# Build directory: /home/aokilablinuxws/catkin_ws/build/torobo_dynamics
-# 
-# This file includes the relevant testing commands required for 
-# testing this directory and lists subdirectories to be tested as well.
-add_test(_ctest_torobo_dynamics_rostest_test_launch_torobo_rbdl_model.test "/home/aokilablinuxws/catkin_ws/build/torobo_dynamics/catkin_generated/env_cached.sh" "/usr/bin/python2" "/opt/ros/melodic/share/catkin/cmake/test/run_tests.py" "/home/aokilablinuxws/catkin_ws/build/torobo_dynamics/test_results/torobo_dynamics/rostest-test_launch_torobo_rbdl_model.xml" "--return-code" "/usr/bin/python2 /opt/ros/melodic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/aokilablinuxws/catkin_ws/src/torobo_robot/torobo_dynamics --package=torobo_dynamics --results-filename test_launch_torobo_rbdl_model.xml --results-base-dir \"/home/aokilablinuxws/catkin_ws/build/torobo_dynamics/test_results\" /home/aokilablinuxws/catkin_ws/src/torobo_robot/torobo_dynamics/test/launch/torobo_rbdl_model.test ")
-add_test(_ctest_torobo_dynamics_rostest_test_launch_torobo_dynamics.test "/home/aokilablinuxws/catkin_ws/build/torobo_dynamics/catkin_generated/env_cached.sh" "/usr/bin/python2" "/opt/ros/melodic/share/catkin/cmake/test/run_tests.py" "/home/aokilablinuxws/catkin_ws/build/torobo_dynamics/test_results/torobo_dynamics/rostest-test_launch_torobo_dynamics.xml" "--return-code" "/usr/bin/python2 /opt/ros/melodic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/aokilablinuxws/catkin_ws/src/torobo_robot/torobo_dynamics --package=torobo_dynamics --results-filename test_launch_torobo_dynamics.xml --results-base-dir \"/home/aokilablinuxws/catkin_ws/build/torobo_dynamics/test_results\" /home/aokilablinuxws/catkin_ws/src/torobo_robot/torobo_dynamics/test/launch/torobo_dynamics.test ")
-subdirs("gtest")

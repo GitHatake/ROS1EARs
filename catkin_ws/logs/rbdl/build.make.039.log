@@ -1,4 +1,0 @@
-[  8%] [32m[1mLinking CXX shared library /home/aokilablinuxws/catkin_ws/devel/.private/rbdl/lib/librbdl.so[0m
-[ 83%] Built target rbdl
-[ 91%] [32m[1mLinking CXX shared library /home/aokilablinuxws/catkin_ws/devel/.private/rbdl/lib/librbdl_urdfreader.so[0m
-[100%] Built target rbdl_urdfreader

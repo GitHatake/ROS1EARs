@@ -1,5 +1,0 @@
-string parameter_name
-string[] joint_names
-float32[] parameter_values
----
-bool success

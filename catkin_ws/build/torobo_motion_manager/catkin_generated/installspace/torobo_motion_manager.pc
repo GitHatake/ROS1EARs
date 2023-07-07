@@ -1,8 +1,0 @@
-prefix=/home/aokilablinuxws/catkin_ws/install
-
-Name: torobo_motion_manager
-Description: Description of torobo_motion_manager
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: roscpp rospy sensor_msgs std_msgs trajectory_msgs message_runtime nodelet pluginlib actionlib_msgs torobo_msgs torobo_common

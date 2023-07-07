@@ -1,8 +1,0 @@
-prefix=/home/aokilablinuxws/catkin_ws/install
-
-Name: torobo_dynamics
-Description: Description of torobo_dynamics
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: roscpp rospy sensor_msgs std_msgs trajectory_msgs message_runtime nodelet pluginlib torobo_common rbdl

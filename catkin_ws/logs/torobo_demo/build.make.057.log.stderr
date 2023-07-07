@@ -1,3 +1,0 @@
-make[2]: *** No rule to make target '/home/aokilablinuxws/catkin_ws/src/torobo_robot/torobo_demo/src/Subscribe.cpp', needed by 'CMakeFiles/Subscribe.dir/src/Subscribe.cpp.o'.  Stop.
-make[1]: *** [CMakeFiles/Subscribe.dir/all] Error 2
-make: *** [all] Error 2

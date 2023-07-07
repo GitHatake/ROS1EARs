@@ -1,8 +1,0 @@
-make[2]: *** No rule to make target '/home/aokilablinuxws/catkin_ws/src/torobo_robot/torobo_demo/src/basic_simple_talker.cpp', needed by 'CMakeFiles/basic_simple_talker.dir/src/basic_simple_talker.cpp.o'.  Stop.
-make[1]: *** [CMakeFiles/basic_simple_talker.dir/all] Error 2
-make[1]: *** Waiting for unfinished jobs....
-make[2]: *** No rule to make target '/home/aokilablinuxws/catkin_ws/src/torobo_robot/torobo_demo/src/Publish.cpp', needed by 'CMakeFiles/Publish.dir/src/Publish.cpp.o'.  Stop.
-make[1]: *** [CMakeFiles/Publish.dir/all] Error 2
-make[2]: *** No rule to make target '/home/aokilablinuxws/catkin_ws/src/torobo_robot/torobo_demo/src/basic_simple_listener.cpp', needed by 'CMakeFiles/basic_simple_listener.dir/src/basic_simple_listener.cpp.o'.  Stop.
-make[1]: *** [CMakeFiles/basic_simple_listener.dir/all] Error 2
-make: *** [all] Error 2

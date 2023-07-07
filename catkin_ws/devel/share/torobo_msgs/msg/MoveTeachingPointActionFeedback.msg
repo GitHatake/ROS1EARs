@@ -1,1 +1,0 @@
-/home/aokilablinuxws/catkin_ws/devel/.private/torobo_msgs/share/torobo_msgs/msg/MoveTeachingPointActionFeedback.msg

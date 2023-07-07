@@ -1,8 +1,0 @@
-prefix=/home/aokilablinuxws/catkin_ws/install
-
-Name: torobo_resources
-Description: Description of torobo_resources
-Version: 0.1.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

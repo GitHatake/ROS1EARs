@@ -1,8 +1,0 @@
-prefix=/home/aokilablinuxws/catkin_ws/devel/.private/torobo_demo
-
-Name: torobo_demo
-Description: Description of torobo_demo
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

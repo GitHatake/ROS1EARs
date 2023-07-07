@@ -1,5 +1,0 @@
-<launch>
-
-  <node name="$(anon toroboarm_jacobian_test_node)" pkg="torobo_EARs2021" type="jacobian_test.py" ns="torobo" output="screen"/>
-
-</launch>

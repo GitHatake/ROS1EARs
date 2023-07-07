@@ -1,4 +1,0 @@
-<launch>
-  <node name="basic_simple_talker"   pkg="torobo_demo" type="basic_simple_talker" output="screen"/>
-  <node name="basic_simple_listener" pkg="torobo_demo" type="basic_simple_listener" output="screen"/>
-</launch>

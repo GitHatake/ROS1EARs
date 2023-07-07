@@ -1,6 +1,0 @@
-[  8%] [32m[1mLinking CXX shared library /home/aokilablinuxws/catkin_ws/devel/.private/torobo_control/lib/libtorobo_control.so[0m
-[ 66%] Built target torobo_control
-[ 75%] [32m[1mLinking CXX executable /home/aokilablinuxws/catkin_ws/devel/.private/torobo_control/lib/torobo_control/torobo_control_node[0m
-[ 83%] [32m[1mLinking CXX shared library /home/aokilablinuxws/catkin_ws/devel/.private/torobo_control/lib/libtorobo_control_nodelet.so[0m
-[ 91%] Built target torobo_control_nodelet
-[100%] Built target torobo_control_node

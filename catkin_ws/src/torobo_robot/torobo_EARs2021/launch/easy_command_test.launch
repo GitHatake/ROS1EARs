@@ -1,5 +1,0 @@
-<launch>
-
-  <node name="$(anon toroboarm_easy_command_test_node)" pkg="torobo_demo" type="easy_command_test.py" ns="torobo" output="screen"/>
-
-</launch>

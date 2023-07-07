@@ -1,8 +1,0 @@
-prefix=/home/aokilablinuxws/catkin_ws/install
-
-Name: arm_lecture
-Description: Description of arm_lecture
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

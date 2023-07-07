@@ -1,4 +1,0 @@
-string teachingTrajectoryName
-trajectory_msgs/JointTrajectory trajectory
----
-bool success

@@ -1,4 +1,0 @@
-model: arm_gripper
-base: TRBB-A-A-003
-arm: TRBA-R-004-7
-gripper: TRBG-L-B-001

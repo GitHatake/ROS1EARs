@@ -1,1 +1,0 @@
-/home/aokilablinuxws/catkin_ws/devel/.private/torobo_gazebo_ros_control/lib/pkgconfig/torobo_gazebo_ros_control.pc

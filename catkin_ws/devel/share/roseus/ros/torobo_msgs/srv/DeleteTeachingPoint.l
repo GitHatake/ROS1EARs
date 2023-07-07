@@ -1,1 +1,0 @@
-/home/aokilablinuxws/catkin_ws/devel/.private/torobo_msgs/share/roseus/ros/torobo_msgs/srv/DeleteTeachingPoint.l

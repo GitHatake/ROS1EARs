@@ -1,1 +1,0 @@
-/home/aokilablinuxws/catkin_ws/devel/.private/torobo_bringup/lib/pkgconfig/torobo_bringup.pc

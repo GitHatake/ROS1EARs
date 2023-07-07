@@ -1,6 +1,0 @@
-<launch>
-
-  <node name="$(anon toroboarm_pub_test_node)" pkg="torobo_demo" type="pub_test.py" ns="torobo" output="screen"/>
-  <node name="$(anon toroboarm_sub_test_node)" pkg="torobo_demo" type="sub_test.py" ns="torobo" output="screen"/>
-
-</launch>

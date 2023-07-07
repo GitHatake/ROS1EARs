@@ -1,6 +1,0 @@
-[ 10%] [32m[1mLinking CXX shared library /home/aokilablinuxws/catkin_ws/devel/.private/torobo_dynamics/lib/libtorobo_dynamics.so[0m
-[ 60%] Built target torobo_dynamics
-[ 70%] [32m[1mLinking CXX executable /home/aokilablinuxws/catkin_ws/devel/.private/torobo_dynamics/lib/torobo_dynamics/torobo_dynamics_node[0m
-[ 80%] [32m[1mLinking CXX shared library /home/aokilablinuxws/catkin_ws/devel/.private/torobo_dynamics/lib/libtorobo_dynamics_nodelet.so[0m
-[ 90%] Built target torobo_dynamics_nodelet
-[100%] Built target torobo_dynamics_node
