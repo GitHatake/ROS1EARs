@@ -6,54 +6,54 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends dirmngr gnupg2 && \
     rm -rf /var/lib/apt/lists/*
 
-RUN cd /home/ubuntu && \
+RUN apt-get update && \
+    cd /home/ubuntu && \
     mkdir catkin_ws
 
 COPY ./catkin_ws /home/ubuntu/catkin_ws
 
-RUN cd ~/catkin_ws/src
+WORKDIR /home/ubuntu/catkin_ws
 
-#RUN git clone https://github.com/pal-robotics/ddynamic_reconfigure.git
-#RUN git clone https://github.com/ros-planning/moveit_msgs.git
-#RUN git clone https://github.com/ros-planning/moveit_ros.git
+RUN sudo apt-get update && \
+    sudo apt-get install ros-melodic-moveit-ros-planning-interface -yq && \
+    sudo apt-get install ros-melodic-moveit-msgs -yq && \
+    sudo apt-get install ros-melodic-ddynamic-reconfigure -yq && \
+    sudo apt-get install nano -yq && \
+    sudo apt-get update && \
+#    sudo apt-get install realsense-ros-melodic -yq && \
+    sudo apt-get install ros-melodic-realsense2-camera -yq
 
-RUN sudo apt-get update
-RUN sudo apt-get install ros-melodic-moveit-ros-planning-interface -yq
-RUN sudo apt-get install ros-melodic-moveit-msgs -yq
-RUN sudo apt-get install ros-melodic-ddynamic-reconfigure -yq
-RUN sudo apt-get install nano -yq
-#RUN sudo apt-get install debian -yq
-#RUN sudo apt-get install realsense-ros-melodic -yq
-RUN sudo apt-get install ros-melodic-realsense2-camera -yq
-#RUN sudo apt-get install ros-melodic-realsense2-description -yq
+RUN rosdep update && \
+    apt-get install -y python-rosinstall && \
+    sudo apt-get install -y python-catkin-tools && \
+    apt-get update && \
+    apt-get install -y ros-melodic-moveit && \
+    apt-get install -y ros-melodic-moveit-visual-tools && \
+    apt-get install -y ros-melodic-gazebo-ros-control && \
+    apt-get install -y ros-melodic-ros-controllers
 
-#RUN cd ~/catkin_ws/src
-#RUN git clone https://github.com/IntelRealSense/realsense-ros.git &&\
-#    cd realsense-ros/ &&\
-#    git checkout ros1-legacy
+RUN apt-get update && \
+    apt-get upgrade -yq 
 
-#WORKDIR /home/ubuntu/catkin_ws
+RUN echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 
-#RUN catkin init && \
-#    catkin clean -b -y && \
-#    catkin build realsense-ros
+RUN bash -c "source ~/.bashrc && echo 'source `catkin locate --shell-verbs`' >> ~/.bashrc && source ~/.bashrc"
 
-#RUN sudo apt-get update &&\
-#    sudo apt-get upgrade -yq
+WORKDIR /home/ubuntu/catkin_ws/src
 
-#RUN cd ~/catkin_ws && \
-#    /bin/bash -c "source /opt/ros/melodic/setup.bash && source devel/setup.bash"
+RUN git clone https://github.com/IntelRealSense/realsense-ros.git
+RUN cd realsense-ros && \
+    git checkout ros1-legacy
 
-#WORKDIR /home/ubuntu/catkin_ws
+RUN cd /home/ubuntu/catkin_ws/src && \
+    git clone https://github.com/pal-robotics/ddynamic_reconfigure.git && \
 
-#RUN catkin init && \
-#    catkin clean -b -y && \
-#    catkin build realsense-ros
 
-#RUN catkin init && \
-#    catkin clean -b -y && \
-#    catkin build && \
-#    catkin source
+#COPY farstsetup.bash /home/ubuntu
+#COPY startup_bash.txt /home/ubuntu
+
+#WORKDIR /home/ubuntu
+#RUN chmod +x farstsetup.bash
 
 RUN sudo apt-get update &&\
     sudo apt-get upgrade -yq
