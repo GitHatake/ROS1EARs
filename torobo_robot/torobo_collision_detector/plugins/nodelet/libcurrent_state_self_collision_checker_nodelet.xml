@@ -1,0 +1,11 @@
+<library path="lib/libcurrent_state_self_collision_checker_nodelet">
+
+  <class name="torobo_collision_detector/current_state_self_collision_checker_nodelet"
+         type="torobo::CurrentStateSelfCollisionCheckerNodelet"
+         base_class_type="nodelet::Nodelet">
+    <description>
+        Nodelet for current_state_self_collision_checker
+    </description>
+  </class>
+
+</library>
