@@ -62,7 +62,7 @@ void ToroboJointStateController::start()
 /*----------------------------------------------------------------------
  Protected Method Implementations
  ----------------------------------------------------------------------*/
-void ToroboJointStateController::sourceCallback(const sensor_msgs::JointState::ConstPtr& msg)y
+void ToroboJointStateController::sourceCallback(const sensor_msgs::JointState::ConstPtr& msg)
 {
     for(int i=0; i<msg->name.size(); i++)
     {

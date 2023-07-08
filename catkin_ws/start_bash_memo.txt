@@ -1,0 +1,7 @@
+cd ~/catkin_ws
+
+source /opt/ros/melodic/setup.bash
+
+source devel/setup.bash
+
+roslaunch torobo_bringup torobo_bringup.launch sim:=true

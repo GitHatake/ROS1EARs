@@ -20,7 +20,6 @@ RUN sudo apt-get update && \
     sudo apt-get install ros-melodic-ddynamic-reconfigure -yq && \
     sudo apt-get install nano -yq && \
     sudo apt-get update && \
-#    sudo apt-get install realsense-ros-melodic -yq && \
     sudo apt-get install ros-melodic-realsense2-camera -yq
 
 RUN rosdep update && \
@@ -46,14 +45,11 @@ RUN cd realsense-ros && \
     git checkout ros1-legacy
 
 RUN cd /home/ubuntu/catkin_ws/src && \
-    git clone https://github.com/pal-robotics/ddynamic_reconfigure.git && \
+    git clone https://github.com/pal-robotics/ddynamic_reconfigure.git
 
+WORKDIR /home/unbuntu/catkin_ws
 
-#COPY farstsetup.bash /home/ubuntu
-#COPY startup_bash.txt /home/ubuntu
-
-#WORKDIR /home/ubuntu
-#RUN chmod +x farstsetup.bash
+RUN chmod +x /home/ubuntu/catkin_ws/startup.bash
 
 RUN sudo apt-get update &&\
     sudo apt-get upgrade -yq
