@@ -3,25 +3,25 @@
 ## 導入
 dockerがPCに導入されている前提です。 
 ### 1.dockerhubからローカルへ
-  以下のコマンドを実行してください。 
-  docker run -it --name [hoge] --network bridge -p 8080:8080 dockerhatake/ears_ros_melodic:latest 
+  以下のコマンドを実行してください。 <br>
+  ``docker run -it --name [hoge] --network bridge -p 8080:8080 dockerhatake/ears_ros_melodic:latest``
 
 ### 2.webブラウザからアクセス
-  webブラウザからvncでアクセスします。 
-  以下のurlに移動してください。アクセスできるはずです。 
-  http://172.17.0.2:6080 
+  webブラウザからvncでアクセスします。 <br>
+  以下のurlに移動してください。アクセスできるはずです。<br> 
+  ``http://172.17.0.2:6080``
 
 ### 3.コンテナ内での作業
-  コンテナ内でターミナルを起動して、以下を実行してください。 
-  自動的に初期設定が開始されます。 
-  cd ~/catkin_ws 
-  ./startup.bash 
+  コンテナ内でターミナルを起動して、以下を実行してください。<br>
+  自動的に初期設定が開始されます。<br>
+  ``cd ~/catkin_ws``
+  ``./startup.bash``
 
 ### 4.シミュレーションの実行
-  EARsのシミュレーションが実行できます。 
-  ~/catkin_ws/start_bash_memo.txt 
-  の中身を一つづつ実行してください。 
-  シミュレーションが起動します。 
+  EARsのシミュレーションが実行できます。<br> 
+  ``~/catkin_ws/start_bash_memo.txt`` <br>
+  の中身を一つづつ実行してください。 <br>
+  シミュレーションが起動します。 <br>
 
 
 ## 注意点
