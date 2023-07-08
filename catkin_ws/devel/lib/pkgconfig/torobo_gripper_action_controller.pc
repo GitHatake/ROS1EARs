@@ -1,1 +1,1 @@
-/home/hatakeyama/docker/ROS1EARs/catkin_ws/devel/.private/torobo_gripper_action_controller/lib/pkgconfig/torobo_gripper_action_controller.pc
+/home/ubuntu/catkin_ws/devel/.private/torobo_gripper_action_controller/lib/pkgconfig/torobo_gripper_action_controller.pc

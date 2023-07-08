@@ -1,1 +1,1 @@
-/home/hatakeyama/docker/ROS1EARs/catkin_ws/devel/.private/torobo_msgs/share/gennodejs/ros/torobo_msgs/srv/SetControlMode.js
+/home/ubuntu/catkin_ws/devel/.private/torobo_msgs/share/gennodejs/ros/torobo_msgs/srv/SetControlMode.js

@@ -1,1 +1,1 @@
-/home/hatakeyama/docker/ROS1EARs/catkin_ws/devel/.private/realsense2_camera/share/gennodejs/ros/realsense2_camera/msg/IMUInfo.js
+/home/ubuntu/catkin_ws/devel/.private/realsense2_camera/share/gennodejs/ros/realsense2_camera/msg/IMUInfo.js
