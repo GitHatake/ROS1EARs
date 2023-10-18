@@ -15,14 +15,14 @@ dockerがPCに導入されている前提です。
 ### 3.webブラウザからアクセス
   webブラウザからvncでアクセスします。 <br>
   まずはアクセスするipアドレスを探します。<br> 
-  ``docker exec -it earsrosmelodic /bin/bash``
-  ``ip a``
+  ``docker exec -it earsrosmelodic /bin/bash``<br>
+  ``ip a``<br>
   ここに表示されたipをwebブラウザに打ち込むと接続できます。<br>
 
 ### 4.コンテナ内での作業
   コンテナ内でターミナルを起動して、以下を実行してください。<br>
   自動的に初期設定が開始されます。<br>
-  ``cd ~/catkin_ws``
+  ``cd ~/catkin_ws``<br>
   ``./startup.bash``
 
 ### 5.シミュレーションの実行
