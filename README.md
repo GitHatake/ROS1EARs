@@ -15,7 +15,7 @@ dockerがPCに導入されている前提です。
 ### 3.webブラウザからアクセス
   webブラウザからvncでアクセスします。 <br>
   まずはアクセスするipアドレスを探します。<br> 
-  ``docker exec -it earsrosmelodic /bin/bash``<br>
+  ``docker exec -it [hogehoge] /bin/bash``<br>
   ``ip a``<br>
   ここに表示されたipをwebブラウザに打ち込むと接続できます。<br>
 
