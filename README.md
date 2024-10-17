@@ -3,29 +3,24 @@
 ## 導入
 dockerがPCに導入されている前提です。 
 
-### 1.dockerのネットワーク設定
-  まず、dockerコンテナ内からインターネット接続をするための設定をします。<br>
-  以下のコマンドを実行してください。<br>
-  ''sudo docker network inspect [hoge]''
-
-### 2.dockerhubからローカルへ
+### 1.dockerhubからローカルへ
   以下のコマンドを実行してください。 <br>
-  ``docker run -itd --name [hogehoge] --network [hoge] dockerhatake/ears_ros_melodic:latest``
+  ``docker run -itd --name [hogehoge] dockerhatake/ears_ros_melodic:latest``
 
-### 3.webブラウザからアクセス
+### 2.webブラウザからアクセス
   webブラウザからvncでアクセスします。 <br>
   まずはアクセスするipアドレスを探します。<br> 
   ``docker exec -it [hogehoge] /bin/bash``<br>
   ``ip a``<br>
   ここに表示されたipをwebブラウザに打ち込むと接続できます。<br>
 
-### 4.コンテナ内での作業
+### 3.コンテナ内での作業
   コンテナ内でターミナルを起動して、以下を実行してください。<br>
   自動的に初期設定が開始されます。<br>
   ``cd ~/catkin_ws``<br>
   ``./startup.bash``
 
-### 5.シミュレーションの実行
+### 4.シミュレーションの実行
   EARsのシミュレーションが実行できます。<br> 
   ``~/catkin_ws/start_bash_memo.txt`` <br>
   の中身を一つずつ実行してください。 <br>
